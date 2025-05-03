@@ -1,4 +1,6 @@
+################
 # name packages
+################
 
 packages <- c("ftsa", "dplyr", "doMC", "tidyr", "ggplot2") 
 
