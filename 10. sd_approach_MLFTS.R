@@ -1,11 +1,13 @@
+# load R packages
+
+source("load_packages.R")
+
+## objective function to be optimalized
+
 # tune_para: tuning parameter
 # resi_mat: residual matrix
 # sd_val_input: standard deviation
 # alpha_level: nominal coverage probability
-
-source("load_packages.R")
-
-# objective function to be optimalized
 
 tune_para_find_function <- function(tune_para, resi_mat, sd_val_input, alpha_level)
 {
